@@ -467,3 +467,17 @@ input:focus, textarea:focus, select:focus {
     border: 2px solid var(--border-color);
   }
 }
+
+.page-title {
+  color: #222; /* 深色文字，适合浅色背景 */
+  font-weight: bold;
+  text-shadow: 0 1px 2px #fff8, 0 0 1px #0002;
+}
+
+.card-title {
+  color: #1565c0; /* 蓝色，适合白色或浅色卡片背景 */
+  font-weight: 600;
+  text-shadow: 0 1px 2px #fff8, 0 0 1px #0002;
+}
+
+/* 如背景为深色可将color改为#fff，并调整text-shadow为深色 */
